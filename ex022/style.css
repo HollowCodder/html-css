@@ -3,7 +3,7 @@
 
 
 div.quadrado{
-    width: 300px;
+    width: 180px;
     height: 300px;
     border: 1px solid black;
     display: inline-block;
@@ -18,5 +18,7 @@ div#q2{
 }
 
 div#q3{
-    background-image: url('imagens/pattern004.png');
+    background-image: url('imagens/IMG_20220914_195408_228.webp');
+    background-size: contain;
+    background-repeat:no-repeat;
 }
