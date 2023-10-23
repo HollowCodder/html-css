@@ -2,23 +2,19 @@
 
 
 
-div.quadrado{
-    width: 180px;
+article#container{
+    height: 97vh;
+    width: 98vw;
+    background-color: green;
+}
+
+section#conteudo{
     height: 300px;
-    border: 1px solid black;
-    display: inline-block;
-}
+    width: 300px;
+    background-color: gold;
+    position: absolute;
 
-div#q1{
-    background-color: blue;
-}
-
-div#q2{
-    background-image: linear-gradient(to right, black, red);
-}
-
-div#q3{
-    background-image: url('imagens/IMG_20220914_195408_228.webp');
-    background-size: contain;
-    background-repeat:no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
