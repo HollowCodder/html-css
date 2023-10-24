@@ -6,6 +6,9 @@
     padding: 0px;
 }
 
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 h2{
     font-size: 40px;
