@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.2em;
+}
+
+thead, .linhacinza{
+    background-color: grey;
+    color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
